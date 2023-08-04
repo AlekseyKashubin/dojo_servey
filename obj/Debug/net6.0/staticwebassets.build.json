@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "/CpZCNhgFrwnali+bvH3uDI/wD3LP4tGfryPJGBQQ5c=",
+  "Source": "dojo_servey",
+  "BasePath": "_content/dojo_servey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "dojo_servey\\wwwroot",
+      "Source": "dojo_servey",
+      "ContentRoot": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\dojo_servey\\wwwroot\\",
+      "BasePath": "_content/dojo_servey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\dojo_servey\\wwwroot\\index.css",
+      "SourceId": "dojo_servey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\dojo_servey\\wwwroot\\",
+      "BasePath": "_content/dojo_servey",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\dojo_servey\\wwwroot\\results.css",
+      "SourceId": "dojo_servey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\akash\\Desktop\\CodingDojo\\c#\\dojo_servey\\wwwroot\\",
+      "BasePath": "_content/dojo_servey",
+      "RelativePath": "results.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\results.css"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+.container{
+    border: solid black 2px;
+    width: 475px;
+    height: 300px;
+    padding: 40px;
+}
+
+label{
+    font-size: 30px;
+
+
+}
+
+.form-line{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+input{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+select{
+    width: 200px;
+}
+.form{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}

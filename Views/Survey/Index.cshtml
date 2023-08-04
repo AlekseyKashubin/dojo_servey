@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/index.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Survey</title>
+
+
+</head>
+
+<body class="container">
+    <form class="form" action="results" method="post">
+        <div class="form-line">
+            <label for="Name">Your Name: </label>
+            <input type="text" name="Name">
+            <span></span>
+        </div>
+        <div class="form-line">
+            <label for="Location">Location: </label>
+            <select name="Location" id="dropbox">
+                <option>Pick a City</option>
+                <option value="Seattle">Seattle</option>
+                <option value="San Diego">San Diego</option>
+                <option value="Dallas">Dallas</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+            <span></span>
+        </div>
+        <div class="form-line">
+            <label for="FavLang">Favorite Language: </label>
+            <select name="FavLang" id="dropbox">
+                <option>Pick a Language</option>
+                <option value="C#">C#</option>
+                <option value="Java ">Java</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <div class="form-comment">
+            <label for="Comment">Comment (optional): </label>
+
+            <textarea rows="4" cols="60" type="text" name="Comment"></textarea>
+
+            <span></span>
+        </div>
+        <button class="btn" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

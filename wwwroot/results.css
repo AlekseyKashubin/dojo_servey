@@ -1,0 +1,13 @@
+.container{
+    border: solid black 2px;
+    width: 475px;
+    height: 300px;
+    padding: 40px;
+}
+h1{
+    text-decoration: underline;
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+}
