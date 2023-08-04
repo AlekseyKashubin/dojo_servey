@@ -16,6 +16,14 @@ public class SurveyController : Controller   // Remember inheritance?
         return View();
     }
 
+ [HttpGet("home")]
+    public ViewResult Home()
+    {
+
+        return View("Index");
+    }
+
+
     [HttpPost("results")]
     public ViewResult Results(string Name, string Location, string FavLang, string Comment)
     {
